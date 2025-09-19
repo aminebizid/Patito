@@ -52,45 +52,67 @@ Les primitives sont l'opération inverse de la dérivation :
 Calculez les primitives suivantes :
 
 a) ∫ 3x² dx
+
 b) ∫ (2x + 5) dx
+
 c) ∫ 1/x dx
+
 d) ∫ √x dx
 
 **Solutions :**
+
 a) ∫ 3x² dx = 3 · x³/3 + C = x³ + C
+
 b) ∫ (2x + 5) dx = x² + 5x + C
+
 c) ∫ 1/x dx = ln|x| + C
+
 d) ∫ √x dx = ∫ x^(1/2) dx = x^(3/2)/(3/2) + C = (2/3)x^(3/2) + C
 
 ### Exercice 2 : Polynômes
+
 Calculez la primitive de :
+
 f(x) = 4x³ - 6x² + 2x - 1
 
 **Solution :**
+
 ∫ (4x³ - 6x² + 2x - 1) dx = x⁴ - 2x³ + x² - x + C
 
 ### Exercice 3 : Fonctions trigonométriques
+
 Calculez les primitives de :
+
 a) f(x) = sin(x) + cos(x)
+
 b) g(x) = 3sin(x) - 2cos(x)
 
 **Solutions :**
+
 a) ∫ [sin(x) + cos(x)] dx = -cos(x) + sin(x) + C
+
 b) ∫ [3sin(x) - 2cos(x)] dx = -3cos(x) - 2sin(x) + C
 
 ## 4. Méthodes d'Intégration
 
 ### 4.1 Intégration par substitution
 
-**Principe :** Si ∫ f(g(x)) · g'(x) dx, on pose u = g(x), donc du = g'(x) dx
+**Principe :** 
 
-**Exemple :** ∫ 2x cos(x²) dx
+Si ∫ f(g(x)) · g'(x) dx, on pose u = g(x), donc du = g'(x) dx
+
+**Exemple :** 
+
+∫ 2x cos(x²) dx
+
 - Posons u = x², donc du = 2x dx
 - L'intégrale devient : ∫ cos(u) du = sin(u) + C = sin(x²) + C
 
 ### 4.2 Intégration par parties
 
-**Formule :** ∫ u dv = uv - ∫ v du
+**Formule :** 
+
+∫ u dv = uv - ∫ v du
 
 **Exemple :** ∫ x eˣ dx
 - Posons u = x et dv = eˣ dx
@@ -100,10 +122,12 @@ b) ∫ [3sin(x) - 2cos(x)] dx = -3cos(x) - 2sin(x) + C
 ## 5. Exercices Intermédiaires
 
 ### Exercice 4 : Substitution simple
+
 Calculez ∫ (3x + 1)⁵ dx
 
 **Solution :**
 Posons u = 3x + 1, donc du = 3 dx, d'où dx = du/3
+
 ∫ (3x + 1)⁵ dx = ∫ u⁵ · (du/3) = (1/3) ∫ u⁵ du = (1/3) · u⁶/6 + C = u⁶/18 + C = (3x + 1)⁶/18 + C
 
 ### Exercice 5 : Fonctions composées
