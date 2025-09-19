@@ -9,45 +9,45 @@ Un vecteur est un objet mathématique caractérisé par :
 - **Une norme** (longueur ou intensité)
 
 ### Notation
-- Vecteur : **u⃗**, **AB⃗**, ou **u** en gras
-- Norme : ||**u⃗**|| ou |**u⃗**|
-- Coordonnées en 2D : **u⃗** = (x, y)
-- Coordonnées en 3D : **u⃗** = (x, y, z)
+- Vecteur : **u**, **AB**, ou u⃗ (avec flèche)
+- Norme : ||**u**|| ou |**u**|
+- Coordonnées en 2D : **u** = (x, y)
+- Coordonnées en 3D : **u** = (x, y, z)
 
 ### Opérations de base
-- **Addition :** **u⃗** + **v⃗** = (u₁ + v₁, u₂ + v₂, u₃ + v₃)
-- **Multiplication par un scalaire :** k**u⃗** = (ku₁, ku₂, ku₃)
-- **Norme :** ||**u⃗**|| = √(u₁² + u₂² + u₃²)
+- **Addition :** **u** + **v** = (u₁ + v₁, u₂ + v₂, u₃ + v₃)
+- **Multiplication par un scalaire :** k**u** = (ku₁, ku₂, ku₃)
+- **Norme :** ||**u**|| = √(u₁² + u₂² + u₃²)
 
 ## 2. Produit Scalaire
 
 ### Définition géométrique
-Le produit scalaire de deux vecteurs **u⃗** et **v⃗** est :
+Le produit scalaire de deux vecteurs **u** et **v** est :
 ```
-u⃗ · v⃗ = ||u⃗|| × ||v⃗|| × cos(θ)
+u · v = ||u|| × ||v|| × cos(θ)
 ```
 où θ est l'angle entre les deux vecteurs.
 
 ### Définition algébrique
 En coordonnées :
-- **2D :** **u⃗** · **v⃗** = u₁v₁ + u₂v₂
-- **3D :** **u⃗** · **v⃗** = u₁v₁ + u₂v₂ + u₃v₃
+- **2D :** **u** · **v** = u₁v₁ + u₂v₂
+- **3D :** **u** · **v** = u₁v₁ + u₂v₂ + u₃v₃
 
 ### Propriétés du produit scalaire
-1. **Commutativité :** **u⃗** · **v⃗** = **v⃗** · **u⃗**
-2. **Distributivité :** **u⃗** · (**v⃗** + **w⃗**) = **u⃗** · **v⃗** + **u⃗** · **w⃗**
-3. **Associativité mixte :** k(**u⃗** · **v⃗**) = (k**u⃗**) · **v⃗** = **u⃗** · (k**v⃗**)
-4. **Positivité :** **u⃗** · **u⃗** = ||**u⃗**||² ≥ 0
+1. **Commutativité :** **u** · **v** = **v** · **u**
+2. **Distributivité :** **u** · (**v** + **w**) = **u** · **v** + **u** · **w**
+3. **Associativité mixte :** k(**u** · **v**) = (k**u**) · **v** = **u** · (k**v**)
+4. **Positivité :** **u** · **u** = ||**u**||² ≥ 0
 
 ### Interprétations géométriques
-- **u⃗** · **v⃗** > 0 : angle aigu (θ < 90°)
-- **u⃗** · **v⃗** = 0 : vecteurs orthogonaux (θ = 90°)
-- **u⃗** · **v⃗** < 0 : angle obtus (θ > 90°)
+- **u** · **v** > 0 : angle aigu (θ < 90°)
+- **u** · **v** = 0 : vecteurs orthogonaux (θ = 90°)
+- **u** · **v** < 0 : angle obtus (θ > 90°)
 
 ### Applications du produit scalaire
-1. **Calcul d'angle :** cos(θ) = (**u⃗** · **v⃗**) / (||**u⃗**|| × ||**v⃗**||)
-2. **Test d'orthogonalité :** **u⃗** ⊥ **v⃗** ⟺ **u⃗** · **v⃗** = 0
-3. **Projection :** proj**ᵥ**(**u⃗**) = (**u⃗** · **v⃗** / ||**v⃗**||²) × **v⃗**
+1. **Calcul d'angle :** cos(θ) = (**u** · **v**) / (||**u**|| × ||**v**||)
+2. **Test d'orthogonalité :** **u** ⊥ **v** ⟺ **u** · **v** = 0
+3. **Projection :** proj_v(**u**) = (**u** · **v** / ||**v**||²) × **v**
 
 ## 3. Exercices sur le Produit Scalaire
 
