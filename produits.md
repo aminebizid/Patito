@@ -52,63 +52,63 @@ En coordonnées :
 ## 3. Exercices sur le Produit Scalaire
 
 ### Exercice 1 : Calcul de produit scalaire
-Soit **u⃗** = (3, -2, 1) et **v⃗** = (1, 4, -2). Calculez **u⃗** · **v⃗**.
+Soit **u** = (3, -2, 1) et **v** = (1, 4, -2). Calculez **u** · **v**.
 
 **Solution :**
-**u⃗** · **v⃗** = 3×1 + (-2)×4 + 1×(-2) = 3 - 8 - 2 = -7
+**u** · **v** = 3×1 + (-2)×4 + 1×(-2) = 3 - 8 - 2 = -7
 
 ### Exercice 2 : Calcul d'angle
-Calculez l'angle entre **u⃗** = (1, 1) et **v⃗** = (1, 0).
+Calculez l'angle entre **u** = (1, 1) et **v** = (1, 0).
 
 **Solution :**
-- **u⃗** · **v⃗** = 1×1 + 1×0 = 1
-- ||**u⃗**|| = √(1² + 1²) = √2
-- ||**v⃗**|| = √(1² + 0²) = 1
+- **u** · **v** = 1×1 + 1×0 = 1
+- ||**u**|| = √(1² + 1²) = √2
+- ||**v**|| = √(1² + 0²) = 1
 - cos(θ) = 1 / (√2 × 1) = 1/√2 = √2/2
 - θ = 45°
 
 ### Exercice 3 : Test d'orthogonalité
-Les vecteurs **u⃗** = (2, 3) et **v⃗** = (3, -2) sont-ils orthogonaux ?
+Les vecteurs **u** = (2, 3) et **v** = (3, -2) sont-ils orthogonaux ?
 
 **Solution :**
-**u⃗** · **v⃗** = 2×3 + 3×(-2) = 6 - 6 = 0
+**u** · **v** = 2×3 + 3×(-2) = 6 - 6 = 0
 Oui, ils sont orthogonaux car leur produit scalaire est nul.
 
 ## 4. Produit Vectoriel
 
 ### Définition géométrique
-Le produit vectoriel **u⃗** ∧ **v⃗** (ou **u⃗** × **v⃗**) est un vecteur tel que :
-- **Direction :** perpendiculaire au plan formé par **u⃗** et **v⃗**
+Le produit vectoriel **u** ∧ **v** (ou **u** × **v**) est un vecteur tel que :
+- **Direction :** perpendiculaire au plan formé par **u** et **v**
 - **Sens :** donné par la règle de la main droite
-- **Norme :** ||**u⃗** ∧ **v⃗**|| = ||**u⃗**|| × ||**v⃗**|| × sin(θ)
+- **Norme :** ||**u** ∧ **v**|| = ||**u**|| × ||**v**|| × sin(θ)
 
 ### Définition algébrique (3D uniquement)
-Pour **u⃗** = (u₁, u₂, u₃) et **v⃗** = (v₁, v₂, v₃) :
+Pour **u** = (u₁, u₂, u₃) et **v** = (v₁, v₂, v₃) :
 ```
-u⃗ ∧ v⃗ = (u₂v₃ - u₃v₂, u₃v₁ - u₁v₃, u₁v₂ - u₂v₁)
+u ∧ v = (u₂v₃ - u₃v₂, u₃v₁ - u₁v₃, u₁v₂ - u₂v₁)
 ```
 
 ### Calcul avec les déterminants
 ```
-u⃗ ∧ v⃗ = |i⃗  j⃗  k⃗|
-          |u₁ u₂ u₃|
-          |v₁ v₂ v₃|
+u ∧ v = |i  j  k|
+        |u₁ u₂ u₃|
+        |v₁ v₂ v₃|
 ```
 
 ### Propriétés du produit vectoriel
-1. **Anti-commutativité :** **u⃗** ∧ **v⃗** = -(**v⃗** ∧ **u⃗**)
-2. **Distributivité :** **u⃗** ∧ (**v⃗** + **w⃗**) = **u⃗** ∧ **v⃗** + **u⃗** ∧ **w⃗**
-3. **Associativité mixte :** k(**u⃗** ∧ **v⃗**) = (k**u⃗**) ∧ **v⃗** = **u⃗** ∧ (k**v⃗**)
-4. **Vecteur nul :** **u⃗** ∧ **u⃗** = **0⃗**
+1. **Anti-commutativité :** **u** ∧ **v** = -(**v** ∧ **u**)
+2. **Distributivité :** **u** ∧ (**v** + **w**) = **u** ∧ **v** + **u** ∧ **w**
+3. **Associativité mixte :** k(**u** ∧ **v**) = (k**u**) ∧ **v** = **u** ∧ (k**v**)
+4. **Vecteur nul :** **u** ∧ **u** = **0**
 
 ### Cas particuliers
-- **u⃗** ∧ **v⃗** = **0⃗** ⟺ **u⃗** et **v⃗** sont colinéaires
-- ||**u⃗** ∧ **v⃗**|| = aire du parallélogramme formé par **u⃗** et **v⃗**
+- **u** ∧ **v** = **0** ⟺ **u** et **v** sont colinéaires
+- ||**u** ∧ **v**|| = aire du parallélogramme formé par **u** et **v**
 
 ### Applications du produit vectoriel
-1. **Calcul d'aire :** Aire = ||**u⃗** ∧ **v⃗**|| / 2 (pour un triangle)
-2. **Vecteur normal :** **n⃗** = **u⃗** ∧ **v⃗** (perpendiculaire au plan)
-3. **Test de colinéarité :** **u⃗** et **v⃗** colinéaires ⟺ **u⃗** ∧ **v⃗** = **0⃗**
+1. **Calcul d'aire :** Aire = ||**u** ∧ **v**|| / 2 (pour un triangle)
+2. **Vecteur normal :** **n** = **u** ∧ **v** (perpendiculaire au plan)
+3. **Test de colinéarité :** **u** et **v** colinéaires ⟺ **u** ∧ **v** = **0**
 
 ## 5. Exercices sur le Produit Vectoriel
 
