@@ -90,11 +90,15 @@ f'(x) = 2(x² - 3) + (2x + 1)(2x) = 2x² - 6 + 4x² + 2x = 6x² + 2x - 6
 
 ### Exercice 4 : Règle du quotient
 Calculez la dérivée de :
+
 f(x) = (x² + 1)/(x - 2)
 
 **Solution :**
+
 f'(x) = [2x(x - 2) - (x² + 1)(1)] / (x - 2)²
+
 f'(x) = [2x² - 4x - x² - 1] / (x - 2)²
+
 f'(x) = (x² - 4x - 1) / (x - 2)²
 
 ### Exercice 5 : Fonctions trigonométriques
